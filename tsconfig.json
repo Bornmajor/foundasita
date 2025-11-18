@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "components/container/PrimaryText.jsx", "app/sections/AboutUs/AboutUs.jsx"  ],
   "exclude": ["node_modules"]
 }

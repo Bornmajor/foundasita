@@ -1,0 +1,42 @@
+.container {
+    background-color: #ede0d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    gap:50px;
+
+}
+.subHeader{
+    color: #ad7e51;
+    text-align: center;
+    font-size: 25px;
+}
+
+.galleryContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageWrapper {
+    width: 300px;
+    /* rectangle width */
+    aspect-ratio: 4 / 3;
+    /* rectangle shape */
+    position: relative;
+    /* required for next/image fill */
+    overflow: hidden;
+    /* crop overflow */
+    border-radius: 8px;
+    background-color: #ccc;
+    /* placeholder bg */
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.imageWrapper:hover {
+    transform: scale(1.05);
+}

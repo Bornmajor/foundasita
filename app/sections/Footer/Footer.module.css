@@ -1,0 +1,29 @@
+.container {
+    background-color: #ad7e52;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    display: flex;
+    justify-content: space-between;
+ 
+    padding-top: 50px ;
+    padding-bottom: 50px;
+
+}
+.siteMapTitle{
+    font-weight: 600;
+    font-size: 18px;
+}
+.siteMapLink{
+    margin:5px;
+}
+.siteMapRow{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.p{
+    margin:0
+}
+

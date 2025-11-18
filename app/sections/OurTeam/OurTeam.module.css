@@ -1,0 +1,87 @@
+.container {
+  padding: 150px 0; /* only vertical padding */
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden; /* prevents page horizontal scroll */
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.textHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleText {
+  color: #ad7e52;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ede0d6;
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.subHeader {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+/* Horizontal scroll wrapper */
+.profilesRowWrapper {
+  width: 100%;
+  overflow-x: auto; /* only this wrapper scrolls */
+  overflow-y: hidden;
+  padding-left: 20px; /* optional spacing */
+  padding-right: 20px;
+  scroll-behavior: smooth;
+}
+
+/* hide scrollbar for Webkit */
+.profilesRowWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.profilesRow {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  width: max-content; /* ensures row takes only as much as needed */
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  height: 350px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.profileCard p {
+  margin: 5px 0;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.profileName {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.profilePosition {
+  font-size: 16px;
+  color: #ad7e52;
+}
