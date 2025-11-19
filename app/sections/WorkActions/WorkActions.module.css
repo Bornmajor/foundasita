@@ -56,3 +56,13 @@
     }
 
 }
+
+/* Regular Phones */
+@media (max-width: 576px) {
+
+
+.subHeader{
+    font-size: 25px;
+}
+
+}

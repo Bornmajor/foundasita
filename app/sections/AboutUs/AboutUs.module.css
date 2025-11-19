@@ -76,7 +76,12 @@
 @media (max-width: 576px) {
 .subHeader,.description{
     text-align: center;
+    
 
+}
+
+.subHeader{
+    font-size: 25px;
 }
 
 }

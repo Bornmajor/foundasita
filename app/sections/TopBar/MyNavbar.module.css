@@ -9,3 +9,17 @@
   line-height: 1;      /* optional: ensures text is vertically aligned */
      /* adjust as needed */
 }
+
+
+@media (max-width: 420px) {
+
+    .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+    }
+    .appName{
+      display: none;
+    }
+
+}

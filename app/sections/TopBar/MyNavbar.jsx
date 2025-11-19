@@ -24,7 +24,7 @@ const MyNavbar = () => (
         width={55}
         height={50}
         />
-        <p> Foundasita </p>  
+        <p className={styles.appName}> Foundasita </p>  
         </div>
         
         </Navbar.Brand>
