@@ -32,7 +32,7 @@ const nunito = Nunito({
 })
 
 export const metadata: Metadata = {
-  title: "Foundasite",
+  title: "Fundasita",
   description: " The aim to empower youth to become resilient, innovative, and self-reliant leaders",
    icons: {
     icon: '/images/app_logo.png', // path to your favicon

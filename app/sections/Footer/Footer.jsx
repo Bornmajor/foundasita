@@ -25,7 +25,7 @@ const Footer = () => {
             height={50}
             className={styles.appLogo}
           />
-          <p className={styles.siteMapTitle}>Foundasita</p>
+          <p className={styles.siteMapTitle}>Fundasita</p>
         </div>
 
         <p className={styles.motto}>

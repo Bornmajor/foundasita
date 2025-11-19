@@ -24,7 +24,7 @@ const OurTeam = () => {
                 />
               </div>
               <p className={styles.profileName}>Jim Thoya</p>
-              <p className={styles.profilePosition}>Founder</p>
+              <p className={styles.profilePosition}>Chairperson</p>
             </div>
 
             {/* Profile Card 2 */}
