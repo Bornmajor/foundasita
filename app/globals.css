@@ -2,6 +2,7 @@
 
 #navbar{
   background-color: transparent!important;
+  font-family: var(--font-montserrat), sans-serif;
 }
 /* More specific selector to override Bootstrap */
 .custom-container {

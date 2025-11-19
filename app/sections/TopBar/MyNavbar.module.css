@@ -1,0 +1,11 @@
+.logoContainer {
+  display: flex;
+  align-items: center; /* vertically center items */
+  gap: 10px;
+}
+
+.logoContainer p {
+  margin: 0;           /* remove default top/bottom margin */
+  line-height: 1;      /* optional: ensures text is vertically aligned */
+     /* adjust as needed */
+}

@@ -1,8 +1,10 @@
 .container {
-  padding: 150px 0; /* only vertical padding */
+  padding: 80px 0 80px 0;
+  /* only vertical padding */
   display: flex;
   justify-content: center;
-  overflow-x: hidden; /* prevents page horizontal scroll */
+  overflow-x: hidden;
+  /* prevents page horizontal scroll */
 }
 
 .innerContainer {
@@ -27,20 +29,24 @@
   width: 150px;
   height: 30px;
   border-radius: 8px;
+  font-family: var(--font-nunito), sans-serif;
 }
 
 .subHeader {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 40px;
+  font-family: var(--font-nunito), sans-serif;
 }
 
 /* Horizontal scroll wrapper */
 .profilesRowWrapper {
   width: 100%;
-  overflow-x: auto; /* only this wrapper scrolls */
+  overflow-x: auto;
+  /* only this wrapper scrolls */
   overflow-y: hidden;
-  padding-left: 20px; /* optional spacing */
+  padding-left: 20px;
+  /* optional spacing */
   padding-right: 20px;
   scroll-behavior: smooth;
 }
@@ -50,11 +56,18 @@
   display: none;
 }
 
+/* Hide scrollbar for Firefox */
+.profilesRowWrapper {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE + Edge (old) */
+}
+
 .profilesRow {
   display: flex;
   gap: 20px;
   justify-content: flex-start;
-  width: max-content; /* ensures row takes only as much as needed */
+  width: max-content;
+  /* ensures row takes only as much as needed */
 }
 
 .profileCard {
@@ -64,10 +77,12 @@
   height: 350px;
   overflow: hidden;
   flex-shrink: 0;
+  font-family: var(--font-montserrat), sans-serif;
 }
 
 .profileCard p {
   margin: 5px 0;
+
 }
 
 .imageWrapper {
@@ -84,4 +99,14 @@
 .profilePosition {
   font-size: 16px;
   color: #ad7e52;
+}
+
+@media (max-width: 820px) {
+
+    .container {
+    padding-top: 80px;
+    padding-bottom: 40px;
+ 
+}
+
 }

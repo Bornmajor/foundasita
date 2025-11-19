@@ -22,3 +22,61 @@
     max-width: 50%;
     /* limit each side to half */
 }
+
+.subHeader {
+    color: #ad7e51;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--font-nunito), sans-serif;
+}
+
+.description {
+    font-family: var(--font-nunito), sans-serif;
+}
+
+.bannerImg {
+    width: 100%;
+    /* image scales to parent width */
+    max-width: 800px;
+    /* prevent it from growing too large */
+    height: auto;
+    /* maintain aspect ratio */
+    object-fit: contain;
+    /* ensures image doesn't stretch */
+}
+
+.aboutImg{
+  width: 100%;          /* image scales to parent width */
+  max-width: 800px;     /* prevent it from growing too large */
+  height: 500px;         /* maintain aspect ratio */
+  object-fit: contain;  /* ensures image doesn't stretch */
+}
+
+
+
+
+@media (max-width: 750px) {
+
+    /* hide banner image on small screens */
+    .imageSection{
+        display: none;
+    }
+
+    /* make textSection take full width */
+    .textSection,
+    .imageSection {
+        width: 100%;
+        max-width: 100%; /* override previous 50% */
+        flex: unset;     /* remove flex constraints */
+    }
+
+}
+
+/* Regular Phones */
+@media (max-width: 576px) {
+.subHeader,.description{
+    text-align: center;
+
+}
+
+}

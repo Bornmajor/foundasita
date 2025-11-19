@@ -10,3 +10,32 @@
     align-items: center;
 
 }
+.heroTextContent{
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 2.5vw;
+    text-align: left;
+
+   
+}
+
+.heroImage {
+  width: 100%;          /* image scales to parent width */
+  max-width: 700px;     /* prevent it from growing too large */
+  height: auto;         /* maintain aspect ratio */
+  object-fit: contain;  /* ensures image doesn't stretch */
+}
+
+
+/* Regular Phones */
+@media (max-width: 576px) {
+  /* styles here */
+  .innerContainer{
+    flex-direction: column-reverse;
+     gap:30px;
+  }
+  .heroTextContent{
+    font-size: 25px;
+    text-align: center;
+   
+  }
+}

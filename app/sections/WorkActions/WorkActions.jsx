@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const WorkActions = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="works">
 
       <h4 className={styles.subHeader}>Our Impact in the Community</h4>
 
