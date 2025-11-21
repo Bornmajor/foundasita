@@ -3,6 +3,10 @@
 #navbar{
   background-color: transparent!important;
   font-family: var(--font-montserrat), sans-serif;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+  background-color: #ffffff !important;
+
 }
 /* More specific selector to override Bootstrap */
 .custom-container {
@@ -25,4 +29,9 @@
 h4{
   font-weight: 700;
   font-size: 1vw;
+}
+
+.active-link{
+  color: #ad7e52 !important;
+  font-weight: 600;
 }

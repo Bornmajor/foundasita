@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Wrap from '@/components/container/Wrap';
 import Image from "next/image";
 import styles from './MyNavbar.module.css'
+import {REGISTRATION_LINK }from "@/constants/url"
+import CustomButton from "@/components/button/CustomButton"
 /**
  * 
  * @returns 
@@ -14,7 +16,7 @@ const MyNavbar = () => (
     paddingTop:"10px",
     paddingBottom:"10px"
   }}>
-   <Navbar bg="light" expand="lg"  id="navbar">
+   <Navbar bg="light" expand="lg"  id="navbar" fixed="top">
       
       <Navbar.Brand href="#home" >
         <div className={styles.logoContainer}>
@@ -36,6 +38,9 @@ const MyNavbar = () => (
           <Nav.Link href="#works">Our Impact</Nav.Link>
           <Nav.Link href="#ourteam">Our team</Nav.Link>
           <Nav.Link href="#footer">Contact us</Nav.Link>
+           <Nav.Link href={REGISTRATION_LINK} className={styles.joinUsLink}>Join us</Nav.Link>
+           <CustomButton textButton='Join us'  href={REGISTRATION_LINK}  style={styles.customNavbarBtn}/>
+
            {/* <Nav.Link href="#our-work">Get involved</Nav.Link> */}
 
         </Nav>

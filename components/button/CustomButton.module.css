@@ -1,0 +1,22 @@
+.button{
+    border-radius: 20px;
+    padding:13px 23px;
+    background-color: #ad7e52;
+    color: black;
+    border:none;
+}
+
+.button:hover{
+    background-color: #ad7e52;
+    color: black;
+}
+
+.outline-primary{
+    border: 1px solid #ad7e52;
+    color: #ad7e52;
+}
+
+.outline-primary:hover{
+    background-color: #ad7e52;
+   
+}

@@ -4,7 +4,7 @@ import AboutUs from "./sections/AboutUs/AboutUs";
 import OurPrograms from "./sections/OurPrograms/OurPrograms";
 import WorkActions from "./sections/WorkActions/WorkActions";
 import OurTeam from "./sections/OurTeam/OurTeam";
-
+import Event from "./sections/Event/Event";
 // home page
 const page = () => {
   return (
@@ -14,6 +14,7 @@ const page = () => {
       <OurPrograms />
       <WorkActions />
       <OurTeam />
+       <Event />
       
     </>
   );

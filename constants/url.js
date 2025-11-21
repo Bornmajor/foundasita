@@ -1,0 +1,1 @@
+export const REGISTRATION_LINK = "https://docs.google.com/spreadsheets/d/1OgGWfb4SQmoRYfCZRRkMJj7Qsw5PGGle9qSHCW0Yr3k/edit?usp=sharing";
