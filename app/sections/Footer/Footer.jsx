@@ -57,13 +57,13 @@ const Footer = () => {
         <p className={styles.siteMapTitle}>Contacts</p>
 
         <div className={styles.siteMapRow}>
-          <MdEmail size={20} />
-          <p className={styles.p}>+234 901 234 5678</p>
+          <MdEmail size={20} className={styles.contactIcons} />
+          <p className={styles.contactText}>+234 901 234 5678</p>
         </div>
 
         <div className={styles.siteMapRow}>
-          <FaPhoneAlt size={20} />
-          <p className={styles.p}>fundasitafoundation@gmail.com</p>
+          <FaPhoneAlt size={20} className={styles.contactIcons} />
+          <p className={styles.emailContactText}>fundasitafoundation@gmail.com</p>
         </div>
       </div>
 

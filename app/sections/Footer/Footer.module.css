@@ -28,8 +28,10 @@
     
 }
 
-.p{
-    margin:0
+
+.contactText,.emailContactText{
+  margin:10px 0;
+  line-height: 1;
 }
 
 .logoContainer{
@@ -68,4 +70,16 @@
     gap:30px;
 }
   
+}
+
+/* Regular Phones */
+@media (max-width: 576px) {
+  /* styles here */
+ .contactIcons{
+    display: none;
+
+ }
+ .emailContactText{
+    font-size: 14px;
+ }
 }
